@@ -1,0 +1,144 @@
+body{
+    background-color: whitesmoke;
+    background-size: auto;
+    background-repeat: none;
+}
+.active{
+    color: black;
+    margin: 10px;
+    padding: 11px 15px;
+    float: left;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: transform 4s;
+    border: 1px solid #c3c6b1;
+    border-radius: 5px;
+    background-color: #c3c6b1;
+}
+.active:hover{
+    transform: scale(1.2);
+}
+nav{
+    list-style-type: none;
+    margin: 8px;
+    padding: 1px;
+    overflow: hidden;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    border: 1px solid  #4b533a ;
+}
+ul, li{
+    list-style-type: none;
+    display: block;
+    padding: 5px 5px;
+    float: right;
+}
+ul li a{
+    display: block;
+    color: black;
+    padding: 10px 10px;
+    margin: 5px;
+    font-size:larger;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+ul li a:hover{
+    color: #4b6043;
+    transition: .4s;
+}
+.main{
+    width: 500px;
+    margin: 100px auto 0px auto;
+}
+h2{
+    border: 2px solid #4b6043;
+    float: left;
+    margin: -10px 30px;
+    font-size: small;
+    background-color: beige;
+    border-radius: 5px;
+}
+form#info{
+    text-align: left;
+    color: black;
+   
+}
+input#info{
+    text-align: center;
+    width: 200px;
+    margin: 10px auto 2px 10px;
+
+    
+}
+.student,.exam{
+    border: ridge 2px black;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    background-image: url(IMG_6870.jpg);
+
+}
+input.q5{
+    width: 70%;
+    height: 150px;
+    padding: 12px 20px;
+    margin: 10px auto 0px 10px;
+    border-radius: 12px;
+}
+.loading{
+    background-color: #0f12db;
+    color: white;
+    padding-right: 10%;
+    padding-right: 200px;
+    border-radius: 15px;
+}
+.container1{
+    background-color: rgb(192, 192, 192);
+    max-width: 0.5%;
+    padding-left: 30%;
+    padding-right: 50%;
+    padding-top: 2%;
+    border-radius: 15px;
+}
+.bar{
+    width: 20%;
+    height: 40px;
+}
+input[type=submit]{
+    background-color: #4b6043;
+    width: 20%;
+    height: 40px;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+input[type=submit]:hover{
+    background-color: white;
+    color: #4b6043;
+}
+footer{
+    position: flex;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #4b533a;
+        color:black;
+        text-align: left;
+        height: 10%;
+        float: left;
+        border-radius: 5px;
+        border: 1px solid black;
+        font-size: 25px;
+        
+    }
+    #asm{
+        text-align: right;
+        float: right;
+        
+    }

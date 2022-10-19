@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quizapp.css">
+    <title>Quiz App</title>
+</head>
+<nav>
+    <header>
+        <b><a class="active" href="KJN.html" target="_self">Keenly Jane Nicanor</a></b>
+    </header>
+    <ul>
+        <li><b><a href="QuizApp.html">Quiz App</a></b></li>
+        <li><b><a href="Registration.html">Registration</a></b></li>
+        <li><b><a href="Stats.html">Stats</a></b></li>
+    </ul>
+</nav>
+<body>
+<div class="main">
+<div class="student">
+    <h2>STUDENT INFORMATION</h2>
+    <br>
+    <form id="info">
+        <label>Name:</label>&nbsp;
+            <input type="text" id="info" name="name" placeholder="e.g. Keenly Jane Nicanor"><br>
+            <label>Email:</label>&nbsp;
+            <input type="email" id="info" name="email" placeholder="e.g. KeenJ2020@gmail.com"><br>
+            <label>Course:</label>
+            <input type="text" id="info" name="course" placeholder="Please input course and block"><br>
+            <label>Date:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="date" id="info" name="date" value="mm/dd/yy"><br>
+            <br>
+</form>
+</div>
+
+<form id="exam">
+    <div class="exam">
+    <h2>EXAM PROPER</h2><br><br>
+        <label>1.What does HTML stands for?</label>
+        <br><br>
+        <input type="text" id="info" name="q1" value=""><br>
+        <hr>
+        <label>2.HTML is case sensitive</label>
+            <br><br>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" id="" name="t" value="True">
+            &nbsp;
+            <span id="True">True</span>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" id="f" name="f" value="False">
+            &nbsp;
+            <span id="False">False</span>
+            <br>
+            <hr>
+        <label>3.Select all legitimate CSS properties</label><br><br>
+            <input type="checkbox" id="font" name="font" value="Font">
+            &nbsp;&nbsp;&nbsp;
+            <label>Font</label><br>
+            <input type="checkbox" id="font" name="label" value="Label">
+            &nbsp;&nbsp;&nbsp;
+            <label>Label</label><br>
+            <input type="checkbox" id="font" name="bg" value="Background">
+            &nbsp;&nbsp;&nbsp;
+            <label>Background</label><br>
+            <input type="checkbox" id="font" name="frm" value="Forms">
+            &nbsp;&nbsp;&nbsp;
+            <label>Forms</label><br>
+            <hr>
+            <label>4. Upload a simple navigation markup</label><br><br>
+            &nbsp;&nbsp;&nbsp;
+            <input type="file" id="file" name="file" value="Choose File">
+            <br>
+            <hr>
+        <label>5. Discuss if you want to be front-end or back end developer</label><br><br>
+            <input type="text" class="q5" name="q5" size="50"><br><br>
+        </form>
+    </div>
+    <input type="submit" value="Submit Form">
+    <div class="w3-border">
+        <div class="w3-grey" style="height:24px;width:20%"></div>
+      </div>
+</div>
+</body>
+<footer>
+    &nbsp;&nbsp;&nbsp;<label>Follow me on Social Media!</label>
+        <a href="https://facebook.com/keenlyjane"><img src="fblogo.png" alt="" width="40px"></a>
+        <a href="https://Instagram.com/keennotken"><img src="ins.png" alt="" width="40px"></a>
+        <a href="https://Twitter.com/knlyjn"><img src="twitter.png" alt="" width="40px"></a>
+        <label id="asm">Copyright ASM @ 2022</label>
+    </footer>
+</html>
